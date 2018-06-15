@@ -1,0 +1,169 @@
+.card{
+    box-shadow: 0px 0px 0px grey;
+  -webkit-transition:  box-shadow .6s ease-out;
+     box-shadow: .8px .9px 3px grey;
+    }
+    .card:hover{ 
+        box-shadow: 1px 8px 20px grey;
+       -webkit-transition:  box-shadow .6s ease-in;
+     }
+
+
+.right-text-container{
+    width: 68%;
+    float: left;
+    margin-top: 20px;
+    }
+
+.body-container{
+    background: black;
+    background-size: cover;
+    height: 100%;
+    padding-top: 150px; 
+}    
+.right-text-image{
+    margin-left: 600px;
+
+}
+
+
+.mission-p{
+    width: 500px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    color: #dddddd;
+}
+
+.mission{
+    width: 600px;
+    padding: 10px 10px 10px 50px;
+    float: left;
+}
+
+
+.head-mission{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.sub-head-mission{
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #cccccc;
+}
+
+.login-card-container{
+    width:400px;
+    height:380px;
+    background:#dddddd;
+    margin-left: 68%;
+    margin-top: 0%;
+    padding: 10px 5px 10px 5px;
+
+}
+
+.sign-in{
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    margin-left: 45px;
+    margin-top: 10px;
+}
+
+.login-email{
+    margin-left: 12%;
+    margin-top: 10%;
+}
+.login-username{
+    margin-left: 12%;
+    margin-top: 10%;
+    
+}
+#login-email,#login-username{
+    width:300px;
+    height: 70px;
+}
+
+.other-mission-container{
+    background: #121317;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    width:100%;
+    height: 109%;
+}
+
+.slick-container{
+
+    width:800px;
+    height: 550px;
+    margin: auto;
+    background: white;
+    padding: 10px 40px 10px 40px;
+    border-radius: 10px;
+}
+
+.other-heading{
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.mission-image{
+    padding:5px 30px 5px 30px;
+    margin-left: 180px;
+}
+
+.hideIt{
+    display: none;
+}
+ 
+#submitButton{
+    width:150px;
+    margin-left: 120px;
+    margin-top: 10px;
+}
+
+
+
+#login-form{
+    padding:20px 10px 20px 10px;
+    margin-top: 30px;
+}
+
+#errorHandler{
+position:absolute;
+font-size:15px;
+font-family: 'Roboto';
+bottom:10px;
+margin-left:30px;
+color:red;
+}
+
+#linkDiv{
+margin-top:10px;
+margin-left:80px;
+}
+
+footer{
+position:absolute;
+left:0px;
+font-family: 'Open Sans Condensed', sans-serif;
+   height:150px;
+   width:100%;
+   background:#070E11;
+
+}
+
+.createdBy{
+color:white;
+margin-left:40%;
+margin-top:3%;
+
+}
+
+.Name{
+font-size:30px;
+}
+
+#navbar-logo{
+width:100px;
+height:30px;
+}
